@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.max-w-591 {
+    max-width: 591px;
+}
+
+.max-w-1140 {
+    max-width: 1140px;
+}
+
+.max-w-1320 {
+    max-width: 1320px;
+}
+
+/***** margin & padding *****/
+.mb-27 {
+    margin-bottom: 27px;
+}
+
+.mt-66 {
+    margin-top: 66px;
+}
+
+.mb-66 {
+    margin-bottom: 66px;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.py-11 {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+/***** gap property *****/
+.gap-38 {
+    gap: 38px;
+}
+
+/***** nav-bar *****/
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rotate-42 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.rotate-43 {
+    transform: rotate(-43deg);
+}
+
+.navbar-link:hover {
+    color: var(--color-bloodmyst-isle) !important;
+}
+
+.btn-1 {
+    padding: 12px 32px 12px 32px;
+    border-radius: 10px;
+    border: none;
+}
+
+.opacity-80 {
+    opacity: 80%;
+}
+
+/***** header *****/
+.bg-img {
+    background-image: url(../image/png/burgers-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.btn-2 {
+    padding: 15px 32px 15px 32px;
+    border-radius: 10px;
+    border: 1px solid var(--color-bloodmyst-isle)
+}
+
+.btn-2:hover {
+    background-color: var(--color-white);
+    color: var(--color-bloodmyst-isle) !important;
+}
+
+@media (max-width:991.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 5;
+        background-color: aqua !important;
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+}

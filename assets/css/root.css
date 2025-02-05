@@ -1,0 +1,86 @@
+:root {
+    --font-poppins: "Poppins", serif;
+    --font-roboto: "Roboto", serif;
+    /***** font-size *****/
+    --fs-sm: 18px;
+    --fs-md: 24px;
+    --fs-lg: 36px;
+    --fs-xl: 48px;
+
+    /***** line-height *****/
+    --lh-23: 23.44px;
+    --lh-30: 30px;
+    --lh-32: 32.4px;
+    --lh-54: 54px;
+    --lh-72: 72px;
+
+    /***** color *****/
+    --color-bloodmyst-isle: #F4241E;
+    --color-white: white;
+    --bg-bloodmyst-isle: #F4241E;
+    --bg-eternal-summer: #F6E300;
+    --bg-hollandaise: #FFF03F;
+}
+
+.font-poppins {
+    font-family: var(--font-poppins);
+}
+
+.font-roboto {
+    font-family: var(--font-roboto);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+/***** line-height *****/
+.lh-23 {
+    line-height: var(--lh-23);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-32 {
+    line-height: var(--lh-32);
+}
+
+.lh-54 {
+    line-height: var(--lh-54);
+}
+
+.lh-72 {
+    line-height: var(--lh-72);
+}
+
+/***** color *****/
+
+.color-bloodmyst {
+    color: var(--color-bloodmyst-isle);
+}
+
+.bg-bloodmyst {
+    background-color: var(--bg-bloodmyst-isle);
+}
+
+.bg-eternal {
+    background-color: var(--bg-eternal-summer);
+}
+
+.bg-hollandaise {
+    background-color: var(--bg-hollandaise);
+}
