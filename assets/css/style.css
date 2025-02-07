@@ -14,6 +14,10 @@
 }
 
 /***** margin & padding *****/
+.mt-26 {
+    margin-top: 26px;
+}
+
 .mb-27 {
     margin-bottom: 27px;
 }
@@ -26,6 +30,14 @@
     padding-top: 31px;
 }
 
+.mb-38 {
+    margin-bottom: 38px;
+}
+
+.pt-42 {
+    padding-top: 42px;
+}
+
 .pb-58 {
     padding-bottom: 58px;
 }
@@ -36,6 +48,10 @@
 
 .mb-66 {
     margin-bottom: 66px;
+}
+
+.pb-68 {
+    padding-bottom: 68px;
 }
 
 .mt-73 {
