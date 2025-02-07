@@ -176,6 +176,7 @@
     background-image: url(../image/png/burgers-img.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     width: 100%;
 }
 

@@ -94,3 +94,10 @@
 .bg-hollandaise {
     background-color: var(--bg-hollandaise);
 }
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-xl: 42px;
+        --lh-72: normal;
+    }
+}
