@@ -11,6 +11,7 @@
     --lh-23: 23.44px;
     --lh-30: 30px;
     --lh-32: 32.4px;
+    --lh-36: 36px;
     --lh-54: 54px;
     --lh-72: 72px;
 
@@ -57,6 +58,10 @@
 
 .lh-32 {
     line-height: var(--lh-32);
+}
+
+.lh-36 {
+    line-height: var(--lh-36);
 }
 
 .lh-54 {

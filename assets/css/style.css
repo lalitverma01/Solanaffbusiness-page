@@ -42,6 +42,18 @@
     margin-top: 73px;
 }
 
+.pt-73 {
+    padding-top: 73px;
+}
+
+.mb-97 {
+    margin-bottom: 97px;
+}
+
+.pb-106 {
+    padding-bottom: 106px;
+}
+
 .py-11 {
     padding-top: 11px;
     padding-bottom: 11px;
@@ -117,6 +129,73 @@
     color: var(--color-bloodmyst-isle) !important;
 }
 
+/***** timeline *****/
+.bg-img-2 {
+    background-image: url(../image/png/timeline-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    background-color: #f43c1a;
+    top: 4%;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    height: 71.5%;
+}
+
+
+.content-box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 60%;
+}
+
+
+.content-box::after {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: -19px;
+    background-color: white;
+    top: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: -10%;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.content {
+    padding: 27px 23px 27px 23px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
@@ -135,5 +214,40 @@
 
     .show-navbar {
         right: 0 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline::after {
+        left: 31px;
+    }
+
+    .content-box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline {
+        width: 100%;
+    }
+
+    .content-box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    .left {
+        left: 0%;
     }
 }
